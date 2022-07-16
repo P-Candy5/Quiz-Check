@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f7fb;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  color: #293264;
+}
+
+.edges {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #293264;
+  width: 100%;
+  height: 100%;
+}
+
+.questionHolder {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 75px;
+  /* justify-content: center;
+  align-items: center; */
+  color: #293264;
+  width: 100%;
+}
+
+.linkedButton {
+  background-color: #4d5b9e;
+  border: 1px solid #4d5b9e;
+  border-radius: 15px;
+  padding: 16px 28px;
+  cursor: pointer;
+  color: #ffff;
+}
+
+.header {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #293264;
+}
+.purple {
+  background-color: #d6dbf5;
+  border-radius: 7.94239px;
+  padding: 4.63px 19.11px;
+  border: 1px solid #d6dbf5;
+  color: #293264;
+}
+
+.borderButton {
+  border: 1px solid #4d5b9e;
+  border-radius: 7.94239px;
+  padding: 4.63px 19.11px;
+  color: #293264;
+}
+
+.purpleButts {
+  display: flex;
+  column-gap: 12.75px;
+}
+
+.borderBottom {
+  border-bottom: 1px solid #dbdef0;
+  padding: 14.99px;
+  width: 600px;
+}
+
+.result {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 35.35px;
+}
+
+.result > button {
+  background-color: #4d5b9e;
+  border: 1px solid #4d5b9e;
+  color: #ffff;
+  border-radius: 10px;
+  padding: 11px 22px;
+}
+
+.yellowImg {
+  display: flex;
+  justify-content: right;
+}
+
+.blueImg {
+  display: flex;
+  justify-content: left;
+}
